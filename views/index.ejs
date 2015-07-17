@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Bootstrap -->
+    <link href="/stylesheets/bootstrap.css" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/styles.css' />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|3d-float">
+  </head>
+  <body>
+	<!-- Wrap all page content here -->	
+	<div id="wrap" class="container">
+  
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand logo font-effect-shadow-multiple font-effect-3d-float" href="#" style="font-weight: bold;"><%= logo %></a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown">
+            <a href="#" id="dropdownMenu1" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Dropdown <b class="caret"></b></a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+  
+  <!-- Begin page content -->
+  <div class="container">
+    <!--<div class="page-header">
+      <h4>OSSCube Premier League</h4>
+    </div>-->
+    <div class="alert alert-success text-primary">Upcoming Match: <p style="display:inline-block;height:15px;width:15px;border-radius:50%;background-color:red;"></p> Team A Vs <p style="height:15px;width:15px;border-radius:50%;background-color:red;display:inline-block;"></p> Team B</div>
+  </div>
+  <div class="container">
+	<div class="span10" style="background-color:#CCC;">
+		asdasd
+	</div>
+  </div>
+  </div>
+
+<div id="footer">
+  <div class="container">
+    <p class="text-muted credit">Creativity And Developed By: <a href="javascript:void(0);">Gaurav Vashishtha</a> &copy; <a href="javascript:void(0);"><%= copyyear %></a>.</p>
+  </div>
+</div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script type="javascript" src="/javascripts/bootstrap.js"></script>
+  </body>
+</html>
